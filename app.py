@@ -160,7 +160,7 @@ def main():
         # Nút bấm xử lý
         if file_to_process:
             st.audio(file_to_process, format="audio/wav")
-            process_btn = st.button("🚀 Phân tích Cảm xúc", type="primary", use_container_width=True)
+            process_btn = st.button("Phân tích Cảm xúc", type="primary", use_container_width=True)
         else:
             process_btn = False
 
